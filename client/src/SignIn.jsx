@@ -37,7 +37,7 @@ const SignIn = () => {
       <div className="heading">Login</div>
       <form onSubmit={handleSubmit} className="formContainer">
         <input
-          type="text"
+          type="email"
           placeholder="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}

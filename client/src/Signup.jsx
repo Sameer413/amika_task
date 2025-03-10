@@ -34,7 +34,7 @@ const Signup = () => {
       <div className="heading">Register Here</div>
       <form onSubmit={handleSubmit} className="formContainer">
         <input
-          type="text"
+          type="email"
           placeholder="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
